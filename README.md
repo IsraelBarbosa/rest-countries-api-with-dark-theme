@@ -3,7 +3,7 @@
 ## [Clique aqui para visulizar o projeto no netlify](https://rest-countries-api-with-dark-theme.netlify.app/)
 
 ## Descrição do projeto
-   Na página inicial é exibido uma lista de paises, e ao clicar em um pais e exibido mais informações sobre o pais selecionado.
+   Na página inicial é exibido uma lista de países, e ao clicar em um país e exibido mais informações sobre o país selecionado.
 
 ## Tecnologias usadas
 <ul>

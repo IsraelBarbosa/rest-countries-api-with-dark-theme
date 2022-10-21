@@ -1,0 +1,134 @@
+.post-layout {
+  margin-top: 20px;
+}
+
+.post-layout__link {
+  display: inline-block;
+  padding: 6px 20px;
+  margin-bottom: 80px;
+  border: none;
+  border-radius: 5px;
+
+  box-shadow: 0 5px 10px 0px #0000004b;
+
+  text-decoration: none;
+}
+
+.post-layout__icon {
+  margin-right: 10px;
+}
+
+.post-layout__img {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .post-layout__img {
+    min-width: 40%;
+    margin-bottom: 0;
+  }
+}
+
+.container-post-info {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1200px) {
+  .container-post-info {
+    min-width: 45%;
+    justify-content: center;
+  }
+}
+
+.post-layout__titulo {
+  margin-bottom: 20px;
+  text-align: left;
+
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .container-post {
+    width: 100%;
+    align-items: flex-start;
+  }
+}
+
+.container-img-e-info {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1200px) {
+  .container-img-e-info {
+    width: 100%;
+    max-width: unset;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.post-layout__lista {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .post-layout__lista  {
+    margin-bottom: 0;
+  }
+}
+
+.post-layout__lista:last-child {
+  margin-bottom: 0px;
+}
+
+.post-layout__lista__item {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+
+  line-height: 35px;
+}
+
+.post-layout__lista__item__span {
+  font-weight: 300;
+}
+
+.container-border__paragrafo {
+  margin: 0;
+  margin-bottom: 20px;
+
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.border-countries__span {
+  padding: 6px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0px 6px 0px #0000004b;
+
+  font-weight: 200;
+}

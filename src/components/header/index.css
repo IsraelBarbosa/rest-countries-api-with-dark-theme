@@ -1,0 +1,37 @@
+.header {
+  box-shadow: 0 5px 10px 0px #0000004b;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header-titulo {
+  margin: 0;
+
+  font-size: 18px;
+}
+
+.header-titulo strong {
+  display: flex;
+}
+
+.header-botao {
+  border: none;
+
+  background-color: transparent;
+}
+
+.header-icon {
+  margin-right: 10px;
+}
+
+.header-botao-span {
+  font-size: 14px;
+  font-weight: 600;
+}

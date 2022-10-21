@@ -1,5 +1,18 @@
 # Projeto realizado utilizando a API [REST Countries API](https://restcountries.com), com mudança de tema (light/dark)
 
+## [Clique aqui para visulizar o projeto no netlify](https://rest-countries-api-with-dark-theme.netlify.app/)
+
+## Descrição do projeto
+   Na página inicial é exibido uma lista de paises, e ao clicar em um pais e exibido mais informações sobre o pais selecionado.
+
+## Tecnologias usadas
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>React</li>
+</ul>
+
 ## Iniciar projeto
 In the project directory, you can run:
 ### `npm start`
